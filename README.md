@@ -1,6 +1,6 @@
 # s4ntest
 
-#RESUMEN
+# RESUMEN
 Esta aplicación cubre la prueba de leer las instrucciones de archivos.txt que contiene los movimientos que debe hacer el dron,
 y genera un archivo txt por cada dron mostrando la ubicación en la que quedó después cada pedido. Por ejemplo:
 AAAAIAA
@@ -17,7 +17,7 @@ Cada dron empieza en la ubicación 0,0 dirección NORTE, entonces tomando como e
 Para la segunda ruta DDDAIAD quedaría de la siguiente forma:
 (-1, 3) dirección SUR: arrancando desde la posición y orientación anterior tenemos 3 indicaciones de giro a la derecha, es decir, en el primer giro queda apuntando al NORTE, en el segundo queda apuntando al OCCIDENTE, y en el tercer giro queda apuntando al SUR, allí hace un movimiento hacía adelante, es decir hacía abajo disminuyendo el valor en x quedando en 3, después da un giro a la izquierda donde apunta al occidente y allí avanza en este caso incrementando el valor en y por lo tanto quedaría en -1 y por último hace un giro a la derecha apuntando de nuevo hacía el SUR.
 
-#COSAS POR MEJORAR
+# COSAS POR MEJORAR
 ● Manejo de excepciones
 ● Actualmente la ruta donde se leen y se generan los archivos está en una constante la cual tendría que cambiar para cada
 laptop, así que una mejora sería hacer esta ruta configurable de un archivo de propiedades o buscar la forma de que acceda
