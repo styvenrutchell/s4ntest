@@ -25,4 +25,6 @@ a una ubicación dentro del mismo proyecto sin necesidad de tener que buscar tod
 ● Si hay varios archivos txt que no tengan las instrucciones para las cuales se programó este proyecto, la aplicación
 generará archivos por cada uno que encuentre, se podría agregar validaciones al respecto y también se podría agregar en la parte de 
 manejo de excepciones.
+● Olvidé agregar tags o las versiones de las diferentes partes de la prueba :(
 ● Se agregaron archivos generados por la aplicación como prueba y ejemplo de su funcionamiento
+
